@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.tsbuild/
+*.tsbuildinfo
+
+# 本地数据库（运行时生成）
+data/
+
+# 敏感凭据：绝不进版本库
+.env
+.env.local
+
+# 残留
+*.log
+.DS_Store
